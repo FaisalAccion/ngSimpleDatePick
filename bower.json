@@ -1,8 +1,28 @@
 {
   "name": "simple-date-picker",
   "version": "1.0.0",
-  "main": ["./js/ngSimpleDatePicker.js","./js/jquery.js", "./js/moment.js","./css/sdp.css"],
-  "ignore": [],
-  "dependencies": {
-  }
+  "main": [
+    "./js/ngSimpleDatePicker.js",
+    "./js/jquery.js",
+    "./js/moment.js",
+    "./css/sdp.css"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/FaisalAccion/ngSimpleDatePick",
+  "authors": [
+    "FaisalAccion <faisal.sayed@accionlabs.com>"
+  ],
+  "description": "Simple Date Picker for Angular",
+  "keywords": [
+    "simple",
+    "date",
+    "picker"
+  ],
+  "license": "MIT"
 }
