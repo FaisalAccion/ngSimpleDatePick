@@ -1,0 +1,8 @@
+{
+  "name": "simple-date-picker",
+  "version": "1.0.0",
+  "main": ["./js/ngSimpleDatePicker.js","./js/jquery.js", "./js/moment.js","./css/sdp.css"],
+  "ignore": [],
+  "dependencies": {
+  }
+}
