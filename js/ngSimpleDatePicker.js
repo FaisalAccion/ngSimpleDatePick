@@ -122,7 +122,7 @@
                     });
 
                     // Dismisses the date picker box when the user clicks somewhere else
-                    $document.on('click', function($event) { goAway(400); });
+                    // $document.on('click', function($event) { goAway(400); });
 
 
                     $scope.clearDate = function() {
