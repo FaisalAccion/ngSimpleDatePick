@@ -18,9 +18,12 @@ Dependencies
 
 Installation
 ------------
+The package is available via bower
+```bash
+bower install simple-date-picker
+```
 
 Make sure you have Angular, JQuery and MomentJS in your project, then just add:
-
 ```html
 <script src="js/ngSimpleDatePicker.js" type="text/javascript"></script>
 ```
