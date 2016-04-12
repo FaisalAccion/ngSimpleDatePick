@@ -98,7 +98,7 @@
 
                     // Answers the original div or input click event
                     element.on('click', function(evt) {
-
+                        evt.stopPropagation();
                         // Calculate the dropdown box's position
                         var elePos = $(element).offset();
                         var top = elePos.top + $(element).outerHeight() + 2;
@@ -122,7 +122,7 @@
                     });
 
                     // Dismisses the date picker box when the user clicks somewhere else
-                    // $document.on('click', function($event) { goAway(400); });
+                    $document.on('click', function($event) { goAway(400); });
 
 
                     $scope.clearDate = function() {
